@@ -2,9 +2,9 @@ import React, { useState } from 'react';
 
 const Header = () => {
   return (
-    <section>
-      <h1>Sollypop!</h1>
-    </section>
+    <header className="header">
+      <h1 className="header-title">Sollypop!</h1>
+    </header>
   )
 }
 

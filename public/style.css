@@ -1,0 +1,19 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+  text-align: center;
+}
+
+.header-title {
+  background-size: 100%;
+  background-image: linear-gradient(to bottom right, white 0%, #ff99cc 50%);
+  display: inline-block;
+  font-family: 'Dosis', 'sans-serif';
+  font-size: 5vw;
+  margin: 2vw 0;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}

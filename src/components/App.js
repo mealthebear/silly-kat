@@ -2,7 +2,7 @@ import About from './pages/About.js';
 import Header from './Header.js';
 import Home from './pages/Home.js';
 import React, { useState } from 'react';
-import { Route, Router, Switch } from 'react-router-dom';
+import { Route, Switch } from 'react-router-dom';
 
 const App = () => {
   return (
