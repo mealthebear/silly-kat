@@ -8,6 +8,11 @@ body {
   display: inline-block; /* Removes default underline style from anchor tags */
   font-size: 1.5vw;
   text-decoration: underline;
+  transition: color 0.3s;
+}
+
+.column-item:hover {
+  color: #ff99cc;
 }
 
 .column-link {
