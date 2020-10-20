@@ -1,6 +1,12 @@
 body {
+  background-color: #f7f7f7;
   margin: 0;
   padding: 0;
+}
+
+.generic-section {
+  margin: 0 auto;
+  width: 95%;
 }
 
 .header {
@@ -16,6 +22,20 @@ body {
   margin: 2vw 0;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+}
+
+.intro-paragraph {
+  text-align: center;
+}
+
+.intro-text {
+  font-family: 'Raleway', sans-serif;
+  font-size: 2vw;
+}
+
+.intro-title {
+  font-family: 'Lato', sans-serif;
+  font-size: 4vw;
 }
 
 .space-cat-container {
