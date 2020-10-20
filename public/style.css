@@ -18,6 +18,22 @@ body {
   -webkit-text-fill-color: transparent;
 }
 
+.space-cat-container {
+  position: relative;
+}
+
 .space-cat-photo {
   max-width: 100%;
+}
+
+.space-cat-text {
+  color: white;
+  font-family: 'Raleway', sans-serif;
+  font-size: 3vw;
+  left: 50%;
+  margin: 0;
+  position: absolute;
+  text-align: center;
+  top: 50%;
+  transform: translate(-50%, -50%);
 }
