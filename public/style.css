@@ -56,13 +56,20 @@ body {
   text-align: center;
 }
 
+.header-paw-print {
+  height: 5vw;
+  position: relative;
+  top: 0.6vw;
+  width: 5vw;
+}
+
 .header-title {
   background-size: 100%;
   background-image: linear-gradient(to bottom right, white 0%, #ff99cc 50%);
   display: inline-block;
   font-family: 'Dosis', 'sans-serif';
   font-size: 5vw;
-  margin: 2vw 0;
+  margin: 2vw;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -78,7 +85,7 @@ body {
   font-size: 2vw;
 }
 
-.paw-print-svg {
+.footer-paw-print{
   height: 2vw;
   width: 2vw;
 }
@@ -124,7 +131,7 @@ body {
 
 .stat-section {
   background-color: #ffebf5;
-  margin-top: 100px;
+  margin-top: 10vw;
   padding-bottom: 6vw;
   text-align: center;
   width: 100%;

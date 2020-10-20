@@ -20,7 +20,7 @@ const Footer = (props) => {
       })}
       <div className="footer-note-container">
         <p className="footer-note">Meow meow meow!</p>
-        <img className="paw-print-svg" src="../../../public/images/paw-print.svg" />
+        <img className="footer-paw-print" src="../../../public/images/paw-print.svg" />
       </div>
     </footer>
   )

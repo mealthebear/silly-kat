@@ -11,6 +11,14 @@ const Home = () => {
       statName: "Raider.io Mythic+ Score",
       statValue: "3,290",
     },
+    {
+      statName: "2v2 Arena Rating",
+      statValue: "1535",
+    },
+    {
+      statName: "3v3 Arena Rating",
+      statValue: "1450",
+    },
   ]);
 
   return (

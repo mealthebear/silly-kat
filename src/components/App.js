@@ -6,7 +6,7 @@ import React, { useState } from 'react';
 import { Route, Switch } from 'react-router-dom';
 
 const App = () => {
-  const [footerDataa, setFooterData] = useState([
+  const [footerData, setFooterData] = useState([
     {
       columnItems: [
         {
@@ -64,7 +64,7 @@ const App = () => {
         <Route exact path='/' component={Home} />
         <Route exact path='/about' component={About} />
       </Switch>
-      <Footer footerData={footerDataa} />
+      <Footer footerData={footerData} />
     </>
   )
 }
