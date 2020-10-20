@@ -61,7 +61,23 @@ body {
   transform: translate(-50%, -50%);
 }
 
-.stat-container {
+.stat-block {
+  background-color: #222;
+  margin-bottom: 1vw;
+}
+
+.stat-piece {
+  color: white;
+  display: inline-block;
+  font-family: 'Lato', sans-serif;
+  font-size: 3vw;
+  width: 50%;
+}
+
+.stat-section {
+  background-color: #ffebf5;
   margin-top: 100px;
+  padding-bottom: 20px;
   text-align: center;
+  width: 100%;
 }
