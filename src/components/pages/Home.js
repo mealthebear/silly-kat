@@ -2,9 +2,15 @@ import React, { useState } from 'react';
 
 const Home = () => {
   return (
-    <div>
-      Hi my name is Solly
-    </div>
+    <section>
+      <div>
+        <img 
+          alt="Cat looking into space" 
+          className="space-cat-photo" 
+          src="../../../public/images/space-kat.jpg" 
+        />
+      </div>
+    </section>
   )
 }
 
