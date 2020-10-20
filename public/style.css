@@ -4,9 +4,52 @@ body {
   padding: 0;
 }
 
-.generic-section {
+.column-item {
+  display: inline-block; /* Removes default underline style from anchor tags */
+  font-size: 1.5vw;
+  text-decoration: underline;
+}
+
+.column-link {
+  color: inherit;
+}
+
+.column-title {
+  font-size: 3vw;
+}
+
+.common-section {
   margin: 0 auto;
   width: 95%;
+}
+
+.footer-column {
+  box-sizing: border-box;
+  display: inline-block;
+  font-family: 'Raleway', sans-serif;
+  padding-left: 1.5vw;
+  vertical-align: top;
+  width: 25%;
+}
+
+.footer-note {
+  background-image: linear-gradient(to bottom right, white 0%, #ff99cc 50%);
+  background-size: 100%;
+  display: inline-block;
+  font-family: 'Dosis', sans-serif;
+  font-size: 2vw;
+  margin-right: 10px;
+  text-align: center;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.footer-note-container {
+  text-align: center;
+}
+
+.footer-section {
+  width: 100%;
 }
 
 .header {
@@ -33,6 +76,11 @@ body {
   line-height: 3vw;
   font-family: 'Raleway', sans-serif;
   font-size: 2vw;
+}
+
+.paw-print-svg {
+  height: 2vw;
+  width: 2vw;
 }
 
 .section-title {
@@ -77,7 +125,7 @@ body {
 .stat-section {
   background-color: #ffebf5;
   margin-top: 100px;
-  padding-bottom: 20px;
+  padding-bottom: 6vw;
   text-align: center;
   width: 100%;
 }

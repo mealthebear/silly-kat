@@ -15,7 +15,7 @@ const Home = () => {
 
   return (
     <>
-      <section className="generic-section">
+      <section className="common-section">
         <div className="space-cat-container">
           <img 
             alt="Cat looking into space" 
@@ -26,7 +26,7 @@ const Home = () => {
         </div>
       </section>
 
-      <section className="generic-section intro-paragraph">
+      <section className="common-section intro-paragraph">
         <h2 className="section-title">Who Dat Kat?</h2>
         <p className="intro-text">Oh hellos! My name is Solly and welcome to my website!<br/>
         I hope you like all the colors and pictures here.<br/> I luv luv luv
@@ -34,7 +34,7 @@ const Home = () => {
         </p>
       </section>
 
-      <section className="generic-section stat-section">
+      <section className="common-section stat-section">
         <h2 className="section-title">Solly Stats in Battle for Azeroth Season 4</h2>
           {userStats.map((stat, index) => {
             return <CharacterStat key={index} statName={stat.statName} statValue={stat.statValue}/>
