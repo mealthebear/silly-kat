@@ -30,6 +30,16 @@ body {
   width: 50%;
 }
 
+.cat-photo {
+  height: 250px;
+  margin-top: 2vw;
+  width: 25%;
+}
+
+#cat-pictures-section {
+  margin-top: 5vw;
+}
+
 .column-item {
   display: inline-block; /* Removes default underline style from anchor tags */
   font-size: 1.5vw;

@@ -1,6 +1,16 @@
+import axios from 'axios';
 import React, { useState } from 'react';
 
 const About = () => {
+  const getCat = async () => {
+    let response = await axios.get('api/cats');
+    let catPicture = response.data;
+    let catImage = document.createElement('IMG');
+    catImage.classList.add("cat-photo");
+    catImage.src = catPicture;
+    document.getElementById('cat-pictures-section').appendChild(catImage);
+  }
+
   return (
     <div>
       <section className="about-me-section common-section">
@@ -23,7 +33,11 @@ const About = () => {
           Are you someone who also <span className="pink-text">loves</span> cute cats?<br />
           Click the button below to get some!
         </h3>
-        <div className="get-cats-button">Nya nya nya!</div>
+        <div className="get-cats-button" onClick={getCat}>Nya nya nya!</div>
+      </section>
+
+      <section id="cat-pictures-section">
+
       </section>
     </div>
   )
