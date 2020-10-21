@@ -3,9 +3,10 @@ import Footer from './Footer.js';
 import Header from './Header.js';
 import Home from './pages/Home.js';
 import React, { useState } from 'react';
-import { Route, Switch } from 'react-router-dom';
 
 const App = () => {
+  const [showHome, dynamicRender] = useState(false);
+
   const [footerData, setFooterData] = useState([
     {
       columnItems: [
@@ -59,11 +60,8 @@ const App = () => {
 
   return (
     <>
-      <Header />
-      <Switch>
-        <Route exact path='/' component={Home} />
-        <Route exact path='/about' component={About} />
-      </Switch>
+      <Header dynamicRender={dynamicRender}/>
+      {showHome ? <Home /> : <About />}
       <Footer footerData={footerData} />
     </>
   )

@@ -4,6 +4,20 @@ body {
   padding: 0;
 }
 
+.about-me-link {
+  cursor: pointer;
+  font-family: 'Raleway', sans-serif;
+  font-size: 2vw;
+  position: absolute;
+  right: 10vw;
+  top: 5vw;
+  transition: color 0.3s;
+}
+
+.about-me-link:hover {
+  color: #ff99cc;
+}
+
 .column-item {
   display: inline-block; /* Removes default underline style from anchor tags */
   font-size: 1.5vw;
@@ -71,6 +85,7 @@ body {
 .header-title {
   background-size: 100%;
   background-image: linear-gradient(to bottom right, white 0%, #ff99cc 50%);
+  cursor: pointer;
   display: inline-block;
   font-family: 'Dosis', 'sans-serif';
   font-size: 5vw;
