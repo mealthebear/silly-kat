@@ -5,7 +5,7 @@ import Home from './pages/Home.js';
 import React, { useState } from 'react';
 
 const App = () => {
-  const [showHome, dynamicRender] = useState(false);
+  const [showHome, dynamicRender] = useState(true);
 
   const [footerData, setFooterData] = useState([
     {

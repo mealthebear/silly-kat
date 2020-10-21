@@ -18,6 +18,18 @@ body {
   color: #ff99cc;
 }
 
+.about-text {
+  box-sizing: border-box;
+  display: inline-block;
+  font-family: 'Raleway', sans-serif;
+  font-size: 2.5vw;
+  line-height: 3.5vw;
+  margin-bottom: 0;
+  padding: 20px;
+  vertical-align: top;
+  width: 50%;
+}
+
 .column-item {
   display: inline-block; /* Removes default underline style from anchor tags */
   font-size: 1.5vw;
@@ -40,6 +52,11 @@ body {
 .common-section {
   margin: 0 auto;
   width: 95%;
+}
+
+.cute-cat-photo {
+  max-width: 700px;
+  width: 50%;
 }
 
 .footer-column {
