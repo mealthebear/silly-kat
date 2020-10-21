@@ -88,6 +88,29 @@ body {
   width: 100%;
 }
 
+.get-cats-button {
+  border: 3px solid #ff99cc;
+  cursor: pointer;
+  font-family: 'Lato', sans-serif;
+  font-size: 2vw;
+  margin: 0 auto;
+  padding: 1vw;
+  text-align: center;
+  transition: all 0.25s;
+  width: 15%;
+}
+
+.get-cats-button:hover {
+  background-color: #ff99cc;
+  color: white;
+}
+
+.get-cats-title {
+  font-family: 'Lato', sans-serif;
+  font-size: 3vw;
+  text-align: center;
+}
+
 .header {
   text-align: center;
 }
@@ -125,6 +148,10 @@ body {
 .footer-paw-print{
   height: 2vw;
   width: 2vw;
+}
+
+.pink-text {
+  color: #ff99cc;
 }
 
 .section-title {

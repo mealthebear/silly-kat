@@ -17,6 +17,14 @@ const About = () => {
         that I luv cute cats :D 
         </p>
       </section>
+
+      <section className="common-section get-cats-section">
+        <h3 className="get-cats-title">
+          Are you someone who also <span className="pink-text">loves</span> cute cats?<br />
+          Click the button below to get some!
+        </h3>
+        <div className="get-cats-button">Nya nya nya!</div>
+      </section>
     </div>
   )
 }
